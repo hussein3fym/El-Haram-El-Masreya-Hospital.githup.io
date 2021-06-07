@@ -1,0 +1,149 @@
+<html>
+<head>
+<meta . charset ="UTF-8" />
+<title>الرئيسية</title>
+<meta . name ="description" .
+      content="مستشفى حكومى يقدم خدمات صحيه عامه,عمليات جراحيه عامه,ولاده, تشخيص بالاشعه وابر صينيه"./>
+<link rel="stylesheet" href="css/الرئيسية.css">
+
+</head>
+<body>
+<header>
+        <a class="call_us" href="اتصل بنا.html">تواصل معنا</a>
+              <nav>
+                  <ul class="nav__links">
+                      <li><a href="من نحن.html">من نحن</a></li>
+                      <li><a href="الأقسام.html">أقسامنا الطبية</a></li>
+                      <li><a href="الرئيسية.html">الرئيسية</a></li>
+                  </ul>
+              </nav>
+</header>
+<div>
+  <h1 class="h1">El haram  Elmasreya  hospital</h1>
+</div>
+
+
+
+
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="photo1.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="photo2.jpeg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="photo3.jpeg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+
+
+<h1 class="doc">أنظر</h1>
+<div class="images">
+<img src="740239.jpg" width="800px" >
+</div>
+
+<div class="list1">
+
+
+<ul>
+  <li class="e1">خطوط الأرقام الداخلية</li>
+  <p class="e1_1">
+ <br> العيادة الخارجية : 4056 ، 2020 ، 4015
+ <br> الطوارئ : 7070
+ <br> العلاقات العامة : 4016
+ <br> التعاقدات : 4097
+  </p>
+  <br>
+  <br>
+  <br>
+  <li class="e1">وحدات المستشفى</li>
+  <p class="e1_1">
+  <br>    وحدة 11 : 1100
+<br>  وحدة 12 : 1200
+<br>  وحدة 19 : 1900
+<br>  وحدة 21 : 2100
+<br>  وحدة 22 : 2200
+<br>  وحدة 23 : 2300
+<br>  وحدة 31 : 3100
+<br>  ICU وحدة الرعاية المركزة : 1400
+<br>  CCU وحدة رعاية الحالات الحرجة : 1700
+<br>  MICU وحدة رعاية المركزة الطبية : 1800
+<br>  NICU وحدة رعاية المبتسرين : 4344
+  </p>
+  <br>
+  <br>
+  <br>
+  <li class="e1">الشكاوى والمقترحات</li>
+  <p class="e1_1">
+  <br>  داخلى : 4016 ، 4330
+  <br>  أو التوجه مباشرة لمكتب خدمة العملاء
+  </p>
+
+
+</ul>
+
+
+</div>
+
+<div class="book">
+<a href="last one .html">
+<button class="button">أحجز الأن</button>
+</a>
+</div>
+
+
+<div class="ff">
+  <img src="619976.jpg" alt="#" width="900px">
+</div>
+
+
+
+
+</body>
+
+</html>
